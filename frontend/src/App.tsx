@@ -66,7 +66,7 @@ export default function App() {
             </svg>
           </div>
           <div>
-            <h1 className="text-white font-bold text-lg leading-tight">WhatsApp Validator</h1>
+            <h1 className="text-white font-bold text-lg leading-tight">WhatsApp Validadorzinho</h1>
             <p className="text-white/60 text-xs">Validação em massa de números</p>
           </div>
           <div className="ml-auto flex items-center gap-1.5">
