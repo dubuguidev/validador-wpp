@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background:
+      radial-gradient(circle at 15% 20%, rgba(37, 211, 102, 0.22), transparent 35%),
+      radial-gradient(circle at 85% 10%, rgba(18, 140, 126, 0.18), transparent 30%),
+      linear-gradient(180deg, #f3faf6 0%, #ece5dd 55%, #e7dfd7 100%);
+    color: #1f2937;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+#root {
+  min-height: 100vh;
+}
