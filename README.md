@@ -94,7 +94,5 @@ npm run preview
 - Sessao do WhatsApp persistida em `backend/auth_sessions`.
 
 ## Observacao importante
-O Baileys nao e API oficial da Meta. Use com responsabilidade e em conformidade com os Termos de Uso do WhatsApp. Para cenarios corporativos com compliance rigoroso, avalie integracao oficial (ex: Twilio/Meta Business API).
-=======
-# Bruno-Dev
->>>>>>> 9ae5723802c793bb94f710b07fac76da790b79a7
+O Baileys nao e API oficial da Meta.
+
