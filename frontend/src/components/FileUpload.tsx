@@ -72,7 +72,8 @@ export function FileUpload({ onJobCreated }: FileUploadProps) {
           <span className="text-whatsapp-green">✓</span> WhatsApp Conectado
         </h2>
         <p className="mt-2 text-gray-500">
-          Envie seu arquivo Excel com os números a validar (coluna A).
+          Envie seu arquivo Excel com os números para validar (coluna A) <br />
+          Exemplo do arquivo: NÚMERO - NOME
         </p>
       </div>
 
@@ -171,7 +172,7 @@ export function FileUpload({ onJobCreated }: FileUploadProps) {
           }
         `}
       >
-        {uploading ? 'Enviando...' : 'Iniciar Validação'}
+        {uploading ? 'Enviando...' : 'Valide Agora'}
       </button>
     </div>
   );
